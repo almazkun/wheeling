@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "wheeling"
+version = "0.1.0"
+description = ""
+authors = ["Almaz Kunpeissov <almaz.kun@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sub-wheel = {path = "wheels/sub_wheel-0.1.0-py3-none-any.whl"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
